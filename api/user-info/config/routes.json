@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/user-info",
+      "handler": "user-info.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/user-info",
+      "handler": "user-info.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/user-info",
+      "handler": "user-info.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

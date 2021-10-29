@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/online-education-and-courses",
+      "handler": "online-education-and-courses.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/online-education-and-courses",
+      "handler": "online-education-and-courses.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/online-education-and-courses",
+      "handler": "online-education-and-courses.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

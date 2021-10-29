@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "user_infos",
+  "info": {
+    "name": "UserInfo",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string",
+      "required": true
+    },
+    "jobtitle": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "unique": false,
+      "required": false
+    },
+    "photo": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

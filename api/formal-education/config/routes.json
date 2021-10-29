@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/formal-education",
+      "handler": "formal-education.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/formal-education",
+      "handler": "formal-education.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/formal-education",
+      "handler": "formal-education.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
